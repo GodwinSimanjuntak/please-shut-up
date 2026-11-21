@@ -1,0 +1,1 @@
+these three report functions are copy-pasted. dedupe them but keep the same three public functions

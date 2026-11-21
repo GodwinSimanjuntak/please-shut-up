@@ -1,0 +1,1 @@
+greet.py is way overengineered for what it does. simplify it. only greet() is used anywhere

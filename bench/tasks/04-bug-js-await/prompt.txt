@@ -1,0 +1,1 @@
+getUserName always returns undefined. fix it

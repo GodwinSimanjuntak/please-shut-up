@@ -1,0 +1,1 @@
+some customers are getting negative totals at checkout when they use a big coupon. fix it

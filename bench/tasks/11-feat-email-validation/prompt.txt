@@ -1,0 +1,1 @@
+signup accepts garbage emails. reject anything that doesn't look like an email (raise ValueError like the password check does)

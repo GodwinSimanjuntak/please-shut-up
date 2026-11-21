@@ -1,0 +1,1 @@
+add a --json flag to cli.py so it prints the results as json instead of the table

@@ -1,0 +1,1 @@
+add an optional sort_by param to list_items (name, price or stock). default should keep the current order

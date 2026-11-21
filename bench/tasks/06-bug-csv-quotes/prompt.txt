@@ -1,0 +1,1 @@
+load_contacts breaks on names that have commas in them, like "Smith, John"

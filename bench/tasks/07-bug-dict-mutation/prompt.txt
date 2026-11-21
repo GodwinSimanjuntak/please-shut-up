@@ -1,0 +1,1 @@
+prune_expired crashes with RuntimeError: dictionary changed size during iteration

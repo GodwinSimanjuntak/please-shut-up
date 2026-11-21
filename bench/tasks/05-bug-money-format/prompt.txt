@@ -1,0 +1,1 @@
+receipts show stuff like $0.30000000000000004. fix the formatting, it should always be 2 decimals

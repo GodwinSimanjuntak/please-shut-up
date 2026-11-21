@@ -1,0 +1,1 @@
+make fetch retry when the transport raises TransientError, 3 attempts total. other errors should still raise right away
