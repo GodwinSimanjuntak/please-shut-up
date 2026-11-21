@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: cleans-up-unused-utils
+expected_outcome: |
+  Unused helpers (legacy_slugify, write_json, md5_file, format_ts, Config, unused imports) are deleted, slugify_v2 wrapper collapsed or kept working, app.py still works, tests pass, final message is short.
+context:
+  scaffold_script: place-files.sh
