@@ -1,0 +1,11 @@
+{
+  "name": "please-shut-up",
+  "owner": { "name": "GodwinSimanjuntak" },
+  "plugins": [
+    {
+      "name": "please-shut-up",
+      "source": "./",
+      "description": "Claude stops yapping: terse reports, minimal diffs, deletes dead code, lean tool output, asks only blocking questions, proves code runs."
+    }
+  ]
+}

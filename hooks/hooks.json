@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "awk 'c>=2{print} /^---$/{c++}' \"${CLAUDE_PLUGIN_ROOT}/skills/please-shut-up/SKILL.md\""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "please-shut-up",
+  "version": "1.0.0",
+  "description": "Claude stops yapping: terse reports, minimal diffs, deletes dead code, lean tool output, asks only blocking questions, proves code runs.",
+  "author": { "name": "GodwinSimanjuntak" },
+  "license": "MIT"
+}
