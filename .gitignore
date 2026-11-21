@@ -1,2 +1,4 @@
 please-shut-up-workspace/
 *.skill
+__pycache__/
+.pytest_cache/
