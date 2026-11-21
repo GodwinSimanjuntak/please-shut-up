@@ -1,0 +1,61 @@
+60 runs -> bench/results/full-1
+PASS 02-bug-pagination            concise      506 out-tok $0.120   59w  1 passed in 0.01s
+PASS 02-bug-pagination            shutup       657 out-tok $0.137   77w  1 passed in 0.01s
+PASS 03-bug-mutable-default       concise      905 out-tok $0.132  112w  2 passed in 0.01s
+PASS 02-bug-pagination            baseline     640 out-tok $0.123   89w  1 passed in 0.01s
+PASS 01-bug-cart-negative         shutup       930 out-tok $0.151   59w  3 passed in 0.01s
+PASS 01-bug-cart-negative         concise      879 out-tok $0.127  119w  3 passed in 0.01s
+PASS 03-bug-mutable-default       baseline    1171 out-tok $0.138  212w  2 passed in 0.01s
+PASS 01-bug-cart-negative         baseline    1368 out-tok $0.140  185w  3 passed in 0.01s
+PASS 04-bug-js-await              baseline     787 out-tok $0.134   93w  ok
+PASS 04-bug-js-await              shutup       683 out-tok $0.145   63w  ok
+PASS 04-bug-js-await              concise      650 out-tok $0.130   62w  ok
+PASS 03-bug-mutable-default       shutup      1143 out-tok $0.160  127w  2 passed in 0.01s
+PASS 05-bug-money-format          baseline    1035 out-tok $0.134  151w  1 passed in 0.01s
+PASS 05-bug-money-format          shutup       726 out-tok $0.141   67w  1 passed in 0.01s
+PASS 05-bug-money-format          concise      851 out-tok $0.136   71w  1 passed in 0.01s
+PASS 06-bug-csv-quotes            baseline     898 out-tok $0.131  155w  1 passed in 0.01s
+PASS 06-bug-csv-quotes            concise      735 out-tok $0.127   88w  1 passed in 0.01s
+PASS 07-bug-dict-mutation         concise      571 out-tok $0.122   71w  1 passed in 0.00s
+PASS 07-bug-dict-mutation         shutup       547 out-tok $0.131   62w  1 passed in 0.01s
+PASS 08-feat-json-flag            baseline     736 out-tok $0.122  108w  default table unchanged
+PASS 07-bug-dict-mutation         baseline     783 out-tok $0.128  115w  1 passed in 0.00s
+PASS 06-bug-csv-quotes            shutup       798 out-tok $0.149   86w  1 passed in 0.01s
+PASS 08-feat-json-flag            concise      716 out-tok $0.123   64w  default table unchanged
+PASS 08-feat-json-flag            shutup       618 out-tok $0.133   68w  default table unchanged
+PASS 10-feat-port-env             shutup       586 out-tok $0.147   55w  2 passed in 0.01s
+PASS 10-feat-port-env             baseline     663 out-tok $0.129   83w  2 passed in 0.01s
+PASS 09-feat-retry                concise      899 out-tok $0.136   87w  3 passed in 0.01s
+PASS 10-feat-port-env             concise      595 out-tok $0.128   60w  2 passed in 0.01s
+PASS 09-feat-retry                shutup      1033 out-tok $0.154   97w  3 passed in 0.01s
+PASS 09-feat-retry                baseline    1088 out-tok $0.140  126w  3 passed in 0.01s
+PASS 11-feat-email-validation     concise      944 out-tok $0.137  124w  7 passed in 0.01s
+PASS 11-feat-email-validation     baseline    1202 out-tok $0.144  175w  7 passed in 0.01s
+PASS 12-feat-sort-by              concise      733 out-tok $0.128   73w  1 passed in 0.01s
+PASS 12-feat-sort-by              shutup       744 out-tok $0.152   74w  1 passed in 0.01s
+PASS 12-feat-sort-by              baseline    1031 out-tok $0.141  124w  1 passed in 0.01s
+PASS 11-feat-email-validation     shutup      1078 out-tok $0.157   95w  7 passed in 0.01s
+PASS 13-cleanup-unused-utils      concise     1188 out-tok $0.139   92w  1 passed in 0.01s
+PASS 13-cleanup-unused-utils      baseline    1525 out-tok $0.148  152w  1 passed in 0.01s
+PASS 13-cleanup-unused-utils      shutup      1098 out-tok $0.156   77w  1 passed in 0.01s
+PASS 14-cleanup-dead-flag         baseline    1047 out-tok $0.136  174w  1 passed in 0.01s
+PASS 15-cleanup-overengineered    baseline     545 out-tok $0.118   65w  1 passed in 0.00s
+PASS 15-cleanup-overengineered    shutup       459 out-tok $0.131   39w  1 passed in 0.01s
+PASS 15-cleanup-overengineered    concise      530 out-tok $0.118   47w  1 passed in 0.01s
+PASS 14-cleanup-dead-flag         concise      923 out-tok $0.139  141w  1 passed in 0.00s
+PASS 14-cleanup-dead-flag         shutup       918 out-tok $0.148  112w  1 passed in 0.01s
+PASS 16-refactor-dedupe           concise     1076 out-tok $0.138   96w  1 passed in 0.01s
+PASS 16-refactor-dedupe           shutup      1139 out-tok $0.155   79w  1 passed in 0.01s
+PASS 17-multi-fix-tests           concise      908 out-tok $0.136  112w  4 passed in 0.01s
+PASS 16-refactor-dedupe           baseline    2090 out-tok $0.182  163w  1 passed in 0.01s
+PASS 18-question-flaky            concise      548 out-tok $0.115  125w  explains set ordering
+PASS 17-multi-fix-tests           baseline    1008 out-tok $0.139  134w  4 passed in 0.02s
+PASS 17-multi-fix-tests           shutup       988 out-tok $0.158  110w  4 passed in 0.03s
+PASS 18-question-flaky            baseline     936 out-tok $0.127  168w  explains set ordering
+PASS 18-question-flaky            shutup       500 out-tok $0.128   94w  explains set ordering
+PASS 19-question-where            concise      239 out-tok $0.107   32w  names limits.py and 100/minute
+PASS 19-question-where            baseline     560 out-tok $0.121   90w  names limits.py and 100/minute
+PASS 19-question-where            shutup       300 out-tok $0.123   28w  names limits.py and 100/minute
+PASS 20-bug-js-range              concise      859 out-tok $0.131  110w  ok
+PASS 20-bug-js-range              shutup       813 out-tok $0.150   89w  ok
+PASS 20-bug-js-range              baseline    1169 out-tok $0.138  167w  ok

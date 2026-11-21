@@ -38,12 +38,17 @@ cp -r skills/please-shut-up ~/.claude/skills/
 
 Say "explain" or "why" any time to get the long version.
 
-## Benchmark (iteration 1, 3 tasks)
+## Benchmark
 
-| | with skill | without |
-|---|---|---|
-| Assertions passed | 100% | 79% |
-| Final message length | 46–55 words | 68–155 words |
-| States how it was verified | 3/3 | 1/3 |
+20 tasks, hidden tests, 1 run per arm, Opus. Raw data is in `bench/results/full-1/`, and you can reproduce it with `python3 bench/run.py`.
 
-The test cases are in `skills/please-shut-up/evals/`. Run them with `claude plugin eval skills/please-shut-up --allow-tools Write,Edit,Bash --scaffold`.
+| | baseline | `Be concise.` | **please-shut-up** |
+|---|---|---|---|
+| Tasks passed | 20/20 | 20/20 | 20/20 |
+| Final message, median words | 142 | 88 | **77** |
+| Says how the change was verified | 5/18 | 3/18 | **18/18** |
+| Net lines changed | −25 | −41 | **−53** |
+| Output tokens, mean | 1,014 | **763** | 788 |
+| Cost per task | $0.136 | **$0.128** | $0.145 |
+
+Compared with just saying "Be concise.", please-shut-up writes slightly shorter reports and smaller diffs. The real difference is that it always tells you what it ran to prove the change works. It doesn't save money: the skill text adds about 7% cost per task. See `bench/README.md` for the method.
